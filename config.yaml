@@ -8,23 +8,26 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-# 
+#
 # This option supports custom types so lessons can be branded
 # and themed with your own logo and alt-text (see `carpentry_description`)
 # See https://carpentries.github.io/sandpaper-docs/editing.html#adding-a-custom-logo
 carpentry: 'incubator'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Lesson Description'
+carpentry_description: 'An introduction lesson to PRONOM container signatures'
+
+# Organisation.
+organization_name: "Preservica, BYU, TNA, FFDev.info"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'What’s in the box: an exploration of container-based file format identification'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~ # FIXME
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'PRONOM, DROID, Siegfried, FIDO, Format Identification, Digipres, Lesson'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -34,7 +37,7 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/ffdev-info/what-is-in-the-box' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
@@ -65,21 +68,49 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+- 001-introduction.md
+- 002-bridging-the-workshops.md
+- 003-a-ff-structures.md
+- 003-b-ff-structures.md
+- 004-container-formats.md
+- 005-ms-word.md
+- 006-binary-signatures-recap.md
+- 007-binary-identification-pronom.md
+- 008-xml-primer.md
+- 009-container-identfication.md
+- 010-creating-a-container-xml.md
+- 011-finding-sample-formats.md
+#- 012-plugging-it-in.md
+#- 013-doing-it-for-yourself.md
+#- 014-teaching-us-how.md
+- 016-testing-signatures.md
+- 017-questions-and-answers.md
+- 018-wrapping-up.md
 
-# Information for Learners
-learners: 
+# Information for Learners. The pages here will land in the introductory
+# sections.
+learners:
 
-# Information for Instructors
-instructors: 
+# Information for Instructors. The pages here will be included in the
+# instructor notes section.
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
+- learner-profiles.md
+- instructor-profiles.md
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
+url: https://ffdev-info.github.io/searching-for-a-signature/
 
+lang: "en"
+languages:
+  default: "English"
+  #other:
+  #  - lang: "Deutsch"
+  #    url: "https://example-training.github.io/shell-novice-de"

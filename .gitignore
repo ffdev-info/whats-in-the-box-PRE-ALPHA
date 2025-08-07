@@ -49,3 +49,7 @@ docs/
 # translation temp files
 po/*~
 
+# Custom ignores.
+NOTES
+venv
+images/100002*
