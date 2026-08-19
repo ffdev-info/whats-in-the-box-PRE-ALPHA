@@ -5,9 +5,9 @@
 # ensuring that the author list and other fields remain accurate.
 
 cff-version: 1.2.0
-title: : >-
+title:
     What's in the Box? Container-based File Format Identification
-message: >-
+message:
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
   re-use, adapt, or expand on the content in your own
@@ -16,7 +16,7 @@ type: dataset
 authors:
   - given-names: David
     family-names: Clipsham
-  - given-names: Tyler:
+  - given-names: Tyler
     family-names: Thorsted
   - given-names: Francesca
     family-names: Mackenzie
